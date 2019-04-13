@@ -1,26 +1,43 @@
-# unbgames-platform
+# Game Name
 
-## Project setup
-```
-npm install
-```
+## Description:
+   Breve descrição do jogo. Os dados de cada tópico devem conter um tab em seu início. Obedeça a formatação exata deste template.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Version:
+   Versão do jogo. Exemplo: 1.0, 2.0...
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Year:
+   Ano de lançamento do jogo.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Repository:
+   Link do repositório oficial do jogo.
 
-### Run your unit tests
-```
-npm run test:unit
-```
+## Awards:
+   - Melhor jogo da categoria
+   - Melhor jogabilidade
+
+## Gallery:
+   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac1.png"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac2.jpg"></p>
+   <p align="center"><img width="400"src="https://github.com/unbgames/unbgames/blob/issue_9/img_tmp/pac3.jpg"></p>
+   * Obs: Substitua o link de "src" pelo link da imagem.
+
+## Genre:
+   - Rpg
+   - Luta
+   - Guerra
+
+### Development:
+   - Desenvolvedor 1
+   - Desenvolvedor 2
+   - Desenvolvedor N
+
+### Art:
+   - Artista 1
+   - Artista 2
+   - Artista N
+
+### Music:
+   - Músico 1
+   - Músico 2
+   - Músico N
