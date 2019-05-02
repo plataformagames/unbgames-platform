@@ -4,7 +4,7 @@ import re
 
 def lista_arquivo():
     lista = []
-    for x in glob.glob("../readmes/*.md"):
+    for x in glob.glob("readmes/*.md"):
        lista.append(x)
     return lista
 
