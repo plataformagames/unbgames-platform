@@ -13,6 +13,8 @@ env:
   global:
     secure: G0zQki6XfcTbMzsUFipYdgRR9h33OZuh1e78dN4sQ3tpcGyOdJZKe21cfQ1qWx+dDllvD7or+b6XnrSv7gkQ6L8XEb/xpRbU8WBp2v5ghXQyLZkererJLjLUR/80Ic8jCZmjerkCWD3dKVQajNf45cZRj4RGUyH46yaWXrzTJlid5NFlz/4J3kZvc7MTrs0VedQ1R56TZ4WyLhVhUJaE0x/RIyOFy14yOWdUusZTcT0M2DvXG7ZwEL7pJdMAtf7g36g8oEqbHS3nEowaKHJOMWsiBeCEgs/2E0EyTEX695QxxrL/LdBxGUNY2QlQ3iajJDpnCXGTx26iDAUCQ80pBPhgh9ZtQz4FVYmrhXQgPH+vvnmhGdO3EpLid6ids341YZYfEfnulOajOvQnecXrLJSf0jJ7o/UfdCfQFN+yob4LLTOwkM5p09bnq94xLGNajtypXQkAH2Wmf0qOyWlJ+dvrZpfScX8ODA3iOudqu1Xf508TKNg+RsGTjc4fyDzleZvk22IDUCJntrpW4Y0TjC1xt3vNTwf6HS/mM3pBn8SxIsEAbdbsIPaM3NvGgDerZiWDzDkQz4PN7cghLOk+giZWPAlt4vWA6vj1R2f5m8BfHiUrXXaVkw1/6kGEQ7dZkDQu106GxQg9fa+cGSGevydx2yfvjPfDZXXxt3lwdaU=
 
+before_script:
+    - chmod +x run_scripts.sh
+
 script:
-    - export secure=$secure
     - ./run_scripts.sh
