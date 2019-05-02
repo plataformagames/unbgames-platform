@@ -19,6 +19,7 @@ python scripts/concatenate_json.py
 
 echo "Step 4"
 cd readmes/
+ls
 mv *.json json/
 
 echo "Fim da execução!"
