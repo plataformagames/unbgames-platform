@@ -19,4 +19,4 @@ before_script:
     - pip install -r requirements.txt
 
 script:
-    - ./run_scripts.sh
+    - ./scripts/run_scripts.sh

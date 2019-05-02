@@ -12,10 +12,10 @@ npm i -g markdown-to-json
 
 echo "Step 3"
 cd ../
-python readmes/script_get_readme.py
-python script_parser_json.py
+python scripts/script_get_readme.py
+python scripts/script_parser_json.py
 sleep 3
-python concatenate_json.py
+python scripts/concatenate_json.py
 
 echo "Step 4"
 cd readmes/
