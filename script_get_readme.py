@@ -1,7 +1,8 @@
 from github import Github
+import os
 import urllib
 
-token = ""
+token = os.environ['secure']
 
 g = Github(token)
 org = g.get_organization('unbgames')
