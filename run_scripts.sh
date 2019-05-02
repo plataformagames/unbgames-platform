@@ -19,6 +19,6 @@ python concatenate_json.py
 
 echo "Step 4"
 cd readmes/
-mv *.json /json
+mv *.json json/
 
 echo "Fim da execução!"
