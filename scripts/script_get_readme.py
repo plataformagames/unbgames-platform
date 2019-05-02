@@ -4,6 +4,7 @@ import urllib
 
 token = os.environ['AUTH_TOKEN']
 
+g = Github(token)
 org = g.get_organization('plataformagames')
 
 for repo in org.get_repos():
