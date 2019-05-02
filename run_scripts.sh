@@ -18,6 +18,8 @@ sleep 3
 python concatenate_json.py
 
 echo "Step 4"
+ls
+pwd
 mv readmes/*.json readmes/json
 
 echo "Fim da execução!"
