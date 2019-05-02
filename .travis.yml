@@ -16,6 +16,7 @@ env:
 before_script:
     - chmod +x run_scripts.sh
     - npm install
+    - pip install -r requirements.txt
 
 script:
     - ./run_scripts.sh
