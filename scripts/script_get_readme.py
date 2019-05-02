@@ -14,5 +14,6 @@ for repo in org.get_repos():
         if(repo.name != 'unbgames'):
             urllib.request.urlretrieve(file_content.download_url, ('../readmes/'+repo.name + '.md'))
 
-    except:
+    except Exception as e:
         print("Repository: " + repo.name + " don't have readme.md file.")
+        print(str(e))
