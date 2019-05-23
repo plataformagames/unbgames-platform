@@ -1,5 +1,5 @@
-# Game Name
-  Jogo Teste
+# Template Teste
+  
 ## Description:
   Teste de integracao contínua
 
